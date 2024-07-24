@@ -48,63 +48,9 @@ li:hover{
 }
 /*Fim do Header*/
 
-/*Inicio Primeiro Conteudo*/
-
-#PrimeiroConteudo{
-}
-
-.Saudacao{
-    color: black;
-}
-
-/*Fim Primeiro Conteudo*/
-
-
-/*Inicio Segundo Conteudo*/
-#SegundoConteudo{
- padding: 0;
-}
-
-#txtSobre{
-    margin-left: 10%;
-}
-
-.infos{
-
-    width: 100%;
-    text-align: center;
-
-}
-
-.Conhecimento{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0;
+.lateral{
+    display: none;
 }
 
 
-/*Fim do Segundo conteudo*/
 
-/*Inicio Terceiro conteudo*/
-#TerceiroConteudo{
-    
-
-}
-
-.Saudacao{
-    text-align: center;
-    
-}
-
-#Cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.card{
-    margin-left: 10px;
-    width: 150px;
-}
-
-
-/*Fim Terceiro conteudo*/
