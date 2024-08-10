@@ -8,83 +8,76 @@
 
     <link rel="icon" href="assets/Img/AvatarSemFundo.png">
 
-    <style>
-        #TerceiroConteudo{
-    width: 100%;
-}
+    <link rel="stylesheet" type="text/css" href="assets/CSS/Portifolio.css" media="screen">
 
+      <link rel="stylesheet" media="screen and (max-width: 480px)" href="assets/CSS/mobile.css">
 
+      <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/CSS/tablet.css">
 
-        #Cards{
-            color: aliceblue;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        .TxtPortifolio{
-            margin-left: 10% ;
-        }
-
-        .card-text, .card-title{
-            color: black;
-        }
-
-        .Cards{
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .card{
-            background-color: rgba(255, 255, 255, 0.38);
-            margin: 1%;
-            width: 324px;
-        }
-
-    </style>
     <title>Portifolio</title>
 </head>
 <body>
-    <main id="TerceiroConteudo">
-        <div id="Cards">
-          <div class="card">
-              <img class="card-img-top" src="assets/Img/ExemploLocadora.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Sistema Locadora</h5>
-                <p class="card-text">Um exemplo de CRUD em C# com .NET framework e banco de dados SQL Server </p>
-                <a href="https://github.com/mattheeus133/Sistema_Locadora" class="btn btn-primary">Visitar</a>
-              </div>
-            </div>
+  <div class="container-fluid">
+    <div class="caixa1">
+        <header> <!-- Cabeçalho da pagina  -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </header>
+    </div>
 
-            <div class="card">
-              <img class="card-img-top" src="assets/Img/ExemploSpotify.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Clone Spotify</h5>
-                <p class="card-text">Clone da Pag inicial do spotify</p>
-                <a href="https://github.com/mattheeus133/CloneSiteSpotify" class="btn btn-primary">Visitar</a>
-              </div>
-            </div>
+  <div id="containerLateral">
+    <section class="lateral">
 
-            <div class="card">
-              <img class="card-img-top" src="assets/Img/ExemploParallax.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Parallax</h5>
-                <p class="card-text">Uma Pag parallax com imagens</p>
-                <a href="https://github.com/mattheeus133/ParallaxComCss" class="btn btn-primary">Visitar</a>
-              </div>
-            </div>
+      <h1 class="Saudacao">Bem Vindo</h1>
+            <img src="assets/Img/AvatarSemFundo.png" alt="" class="avatar">
+          
+            <ul class="Conhecimento">
+              <li class="atributos">Conhecimento na linguagem C, C#, HTML, CSS, JavaScript;</li>
+              <li class="atributos">Conhecimento em Banco de Dados SQL Server;</li>
+              <li class="atributos">Conhecimento de hardware e manutenção de computadores;</li>
+              <li class="atributos">GitHub:mattheeus133<a href="https://github.com/mattheeus133"><img src="	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a></li>
+            </ul>
 
-            <div class="card">
-              <img class="card-img-top" src="assets/Img/ExemploSQL.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Banco de Dados Locadora</h5>
-                <p class="card-text">Banco de Dados SQL Server do sistema Locadora</p>
-                <a href="https://github.com/mattheeus133/TabelasSqlServer_SistemaLocadora" class="btn btn-primary">Visitar</a>
-              </div>
-            </div>
+    </section>
+  </div>
+      <main id="mainCards">
+        <div class="divCard">
+          <img class="imgCard" src="/assets/Img/Img SistemaLocadora.png">
+          <p class="txtCard"><b>Sistema em C#</b></p>
+          <p class="txtDescricao">Um sistema de uma locadora feito em csharp com SQLServer em windows forms</p>
+          <button class="btnVisitar">Visistar</button>
+        </div>
+
+        <div class="divCard">
+          <img class="imgCard" src="/assets/Img/ExemploSQL.png">
+          <p class="txtCard"><b>Banco de dados Locadora </b></p>
+          <p class="txtDescricao">Banco de dados do sistema locadora desenvolvido em SQL Server </p>
+          <button class="btnVisitar">Visistar</button>
+        </div>
+
+        <div class="divCard">
+          <img class="imgCard" src="assets/Img/ExemploSpotify.png">
+          <p class="txtCard"><b>Clone Spotify </b></p>
+          <p class="txtDescricao">Clone da landing page do spotify usando o framework bootstrap. </p>
+          <button class="btnVisitar">Visistar</button>
+        </div>
+
+        <div class="divCard">
+          <img class="imgCard" src="/assets/Img/ExemploParallax.png">
+          <p class="txtCard"><b>Parallax</b></p>
+          <p class="txtDescricao">Uma Pagina simples mostrando o efeito parallax em um site. </p>
+          <button class="btnVisitar">Visistar</button>
         </div>
       </main>
+  </div>
 
+
+ 
+  <button class="botao">Hover Me</button>
 
 
 
